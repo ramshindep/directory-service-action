@@ -29,6 +29,12 @@ jobs:
          with:
           args: --path=.
 
+       - name: oss scan
+         run: mvn ossindex:audit
+         
+
+        
+
          
          
 
