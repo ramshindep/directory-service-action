@@ -21,6 +21,12 @@ jobs:
        - name: checkout code
          uses: actions/checkout@v4
 
+       - name: perform google formatter check
+         run: mvn com.spotify.fmt:fmt-maven-plugin:check
+
+         
+         
+
          
            
       
